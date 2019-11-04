@@ -18,11 +18,11 @@ understanding of what is a happening.
 rate or is it because of the water conditions?
 
 ##### Condition of Sea Star:
-![Starfish Death](Effect_on_Starfish_Population/Photos/StarfishDeath.png)
+![Starfish Death](images/StarfishDeath.png)
 ##### Climate Change Effect:
-![Visual of Change](Effect_on_Starfish_Population/Photos/ClimateChangeEffect.png)
+![Visual of Change](images/ClimateChangeEffect.png)
 ##### Temperature Change Effect on Sea Star:
-![Graph Showing Steep Rise in Temparture over the years](Effect_on_Starfish_Population/Photos/TempEffectOnStarfish.png)
+![Graph Showing Steep Rise in Temparture over the years](images/TempEffectOnStarfish.png)
 
 > _Link/Reference to Dataset:_
 * https://phys.org/news/2015-09-climate-american-starfish.html
