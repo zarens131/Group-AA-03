@@ -36,11 +36,12 @@ Autumn 2019
       ![Sea Water Temperatures](Group-AA-03/images/sea_water_temps.png)
       ![Heat Map](Group-AA-03/images/heat_map.png)
 ##### Teamwork Commitments:
-(a) Weekly time(s) that everyone in the
-group can get together for at least 2 hours; (b) Your individual goal(s) for the project
-and your roles; (c) A commitment on how you will communicate weekly; and (d)
-An commitment on how you will give each other feedback on working together and
-how you will address communication challenges or work breakdowns.
+* As a group, we meet on Sundays from 1pm to 3pm.
+  * Arya: Interested in the human influence towards the sea star population. Role - Researcher
+  * Nicholas: Interested in the data trends between global warming and the sea star population Role - Logistics and Researcher
+  * Zachary: Interested in how the sea star population has struggled to adapt to global warming. Role - Project Organizer and Researcher
+* Using slack, canvas, and our phones we can communicate with each other easily. Our communication network is setup so that a group members with question or need their work checked can easily do so.
+* As a group, we will be given tasks and goals, these will be checked during meeting times with each member. We will address communication challengers or work breakdowns by adequate pre planning a solution.
 ##### Questions for Teaching Team
 * Are we required to format our reference resources in a specific way? If so, APA, MLA, or regular links?
 * Is it okay for the README to have most of the proposal information? Or should it formatted and informationally different?
