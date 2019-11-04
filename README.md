@@ -32,11 +32,11 @@ Autumn 2019
   [Ochre Sea Star Population](https://tuvalabs.com/datasets/ochre_sea_star_populations/activities) |
   [Sea Stars Distribution](https://onlinelibrary.wiley.com/doi/pdf/10.1111/ddi.12490)
 ##### Information Visualizations:
-# ![Study Sites](images/study_sites.png)
+# ![Study Sites](images/study_sites.PNG)
 #### _Fig 1. Heat map annual to relative population size_ (Source: Tuvalabs.com
-# ![Sea Water Temperatures](images/sea_water_temps.png)
+# ![Sea Water Temperatures](images/sea_water_temps.PNG)
 #### _Fig 2. Temperature map from 2005 - 2015 within the ocean_ (Source: Onlinelibrary.wiley.com)
-# ![Heat Map](images/heat_map.png)
+# ![Heat Map](images/heat_map.PNG)
 #### _Fig 3. Map of study sites along the Pacific coast of North America. Sites are indicated by dots and study regions by labeled boxes_ (Source: Journals.plos.org)
 ##### Teamwork Commitments:
 * As a group, we meet on Sundays from 1pm to 3pm.
