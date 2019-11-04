@@ -24,13 +24,13 @@ Autumn 2019
   States, with the focus being mainly in California. Researchers don't know the
   cause of the disease yet, but in coming years, research may unveil the cause.
 ##### Research Question(s):
-    * Does the rising water temperatures along the Western Coast of the United
+  * Does the rising water temperatures along the Western Coast of the United
     States have any impact on the Sea Star population?
-    * With recent numbers in Sea Star population dwindling, how will the shallow
+  * With recent numbers in Sea Star population dwindling, how will the shallow
     ecosystems be affected and how much will that change the ocean?
 ##### Possible Data Set(s):
-      * [Ochre Sea Star Population](https://tuvalabs.com/datasets/ochre_sea_star_populations/activities)
-      * [Sea Stars Distribution](https://onlinelibrary.wiley.com/doi/pdf/10.1111/ddi.12490)
+  [Ochre Sea Star Population](https://tuvalabs.com/datasets/ochre_sea_star_populations/activities) | 
+  [Sea Stars Distribution](https://onlinelibrary.wiley.com/doi/pdf/10.1111/ddi.12490)
 ##### Information Visualizations:
       ![Study Sites](Group-AA-03/images/study_sites.png)
       ![Sea Water Temperatures](Group-AA-03/images/sea_water_temps.png)
