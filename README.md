@@ -32,9 +32,9 @@ Autumn 2019
       * [Ochre Sea Star Population](https://tuvalabs.com/datasets/ochre_sea_star_populations/activities)
       * [Sea Stars Distribution](https://onlinelibrary.wiley.com/doi/pdf/10.1111/ddi.12490)
 ##### Information Visualizations:
-      ![Study Sites](images/study_sites.png)
-      ![Sea Water Temperatures](images/sea_water_temps.png)
-      ![Heat Map](images/heat_map.png)
+      ![Study Sites](Group-AA-03/images/study_sites.png)
+      ![Sea Water Temperatures](Group-AA-03/images/sea_water_temps.png)
+      ![Heat Map](Group-AA-03/images/heat_map.png)
 ##### Teamwork Commitments:
 (a) Weekly time(s) that everyone in the
 group can get together for at least 2 hours; (b) Your individual goal(s) for the project
