@@ -2,7 +2,7 @@
 ### Project: Sea Star
  This project focuses on the decline of the population of Sea Stars on the
  Western Coast of the United States and what causes the rapid decline.
-* [Project Proposal](githubwikilinkhere)
+* [Project Proposal](https://github.com/zarens131/Group-AA-03.wiki.git)
 ###### Team Members:
 * Arya Goel
 * Nicholas Wicklund
