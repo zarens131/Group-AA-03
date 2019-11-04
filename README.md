@@ -32,18 +32,18 @@ Autumn 2019
   [Ochre Sea Star Population](https://tuvalabs.com/datasets/ochre_sea_star_populations/activities) |
   [Sea Stars Distribution](https://onlinelibrary.wiley.com/doi/pdf/10.1111/ddi.12490)
 ##### Information Visualizations:
-# ![Study Sites](Group-AA-03/images/study_sites.png)
+# ![Study Sites](images/study_sites.png)
 #### _Fig 1. Heat map annual to relative population size_ (Source: Tuvalabs.com
-# ![Sea Water Temperatures](Group-AA-03/images/sea_water_temps.png)
+# ![Sea Water Temperatures](images/sea_water_temps.png)
 #### _Fig 2. Temperature map from 2005 - 2015 within the ocean_ (Source: Onlinelibrary.wiley.com)
-# ![Heat Map](Group-AA-03/images/heat_map.png)
+# ![Heat Map](images/heat_map.png)
 #### _Fig 3. Map of study sites along the Pacific coast of North America. Sites are indicated by dots and study regions by labeled boxes_ (Source: Journals.plos.org)
 ##### Teamwork Commitments:
 * As a group, we meet on Sundays from 1pm to 3pm.
   * Arya: Interested in the human influence towards the sea star population. Role - Researcher
   * Nicholas: Interested in the data trends between global warming and the sea star population Role - Logistics and Researcher
   * Zachary: Interested in how the sea star population has struggled to adapt to global warming. Role - Project Organizer and Researcher
-* Using slack, canvas, and our phones we can communicate with each other easily. Our communication network is setup so that a group members with question or need their work checked can easily do so.
+* Using slack, canvas, and our phones we can communicate with each `other easily. Our communication network is setup so that a group members with question or need their work checked can easily do so.
 * As a group, we will be given tasks and goals, these will be checked during meeting times with each member. We will address communication challengers or work breakdowns by adequate pre planning a solution.
 ##### Questions for Teaching Team
 * Are we required to format our reference resources in a specific way? If so, APA, MLA, or regular links?
