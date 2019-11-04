@@ -33,8 +33,11 @@ Autumn 2019
       * [Sea Stars Distribution](https://onlinelibrary.wiley.com/doi/pdf/10.1111/ddi.12490)
 ##### Information Visualizations:
       ![Study Sites](Group-AA-03/images/study_sites.png)
+#### _Fig 1. Heat map annual to relative population size_ (Source: Tuvalabs.com)
       ![Sea Water Temperatures](Group-AA-03/images/sea_water_temps.png)
+#### _Fig 2. Temperature map from 2005 - 2015 within the ocean_ (Source: Onlinelibrary.wiley.com)
       ![Heat Map](Group-AA-03/images/heat_map.png)
+#### _Fig 3. Map of study sites along the Pacific coast of North America. Sites are indicated by dots and study regions by labeled boxes_ (Source: Journals.plos.org)
 ##### Teamwork Commitments:
 * As a group, we meet on Sundays from 1pm to 3pm.
   * Arya: Interested in the human influence towards the sea star population. Role - Researcher
