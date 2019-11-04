@@ -23,9 +23,9 @@
   * [Sea Stars Distribution](https://onlinelibrary.wiley.com/doi/pdf/10.1111/ddi.12490)
 
 ##### Information Visualizations:
-![Study Sites](images\study_sites.PNG)
-![Sea Water Temperatures](images\sea_water_temps.PNG)
-![Heat Map](images\heat_map.PNG)
+![Study Sites](images/study_sites.PNG)
+![Sea Water Temperatures](images/sea_water_temps.PNG)
+![Heat Map](images/heat_map.PNG)
 
 ##### References
 * [Large Scale Impacts](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0192870)
