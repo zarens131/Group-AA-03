@@ -32,9 +32,9 @@ Autumn 2019
       * [Ochre Sea Star Population](https://tuvalabs.com/datasets/ochre_sea_star_populations/activities)
       * [Sea Stars Distribution](https://onlinelibrary.wiley.com/doi/pdf/10.1111/ddi.12490)
 ##### Information Visualizations:
-      ![Study Sites](/images/study_sites.png)
+      ![Study Sites](images/study_sites.png)
       ![Sea Water Temperatures](images/sea_water_temps.png)
-      ![Heat Map](/images/heat_map.png)
+      ![Heat Map](images/heat_map.png)
 ##### Teamwork Commitments:
 (a) Weekly time(s) that everyone in the
 group can get together for at least 2 hours; (b) Your individual goal(s) for the project
@@ -42,9 +42,9 @@ and your roles; (c) A commitment on how you will communicate weekly; and (d)
 An commitment on how you will give each other feedback on working together and
 how you will address communication challenges or work breakdowns.
 ##### Questions for Teaching Team
-Are we required to format our reference resources in a specific way? If so, APA, MLA, or regular links?
-Is it okay for the README to have most of the proposal information? Or should it formatted and informationally different?
-I had to make the GitHub project public in order to create a Wiki, is this an issue?
+* Are we required to format our reference resources in a specific way? If so, APA, MLA, or regular links?
+* Is it okay for the README to have most of the proposal information? Or should it formatted and informationally different?
+* I had to make the GitHub project public in order to create a Wiki, is this an issue?
 ##### References
 1. [Large Scale Impacts](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0192870)
 2. [Sea Stars Distribution](https://onlinelibrary.wiley.com/doi/pdf/10.1111/ddi.12490)
