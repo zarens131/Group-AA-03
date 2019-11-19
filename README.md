@@ -28,16 +28,28 @@ Autumn 2019
     States have any impact on the Sea Star population?
   * With recent numbers in Sea Star population dwindling, how will the shallow
     ecosystems be affected and how much will that change the ocean?
+  * How does the population of the other animals in the ecosystem appear to affect the sea star population?
+  * Comparing the global warming temperatures to the general ecosystem where sea stars reside, is there a noticeable trend?
+  *
 ##### Possible Data Set(s):
   [Ochre Sea Star Population](https://tuvalabs.com/datasets/ochre_sea_star_populations/activities) |
-  [Sea Stars Distribution](https://onlinelibrary.wiley.com/doi/pdf/10.1111/ddi.12490)
+  [Sea Stars Distribution](https://onlinelibrary.wiley.com/doi/pdf/10.1111/ddi.12490) |
+  [Ocean Heat](https://www.epa.gov/climate-indicators/climate-change-indicators-ocean-heat) |
+  [Sea Surface Temperatures](https://www.epa.gov/climate-indicators/climate-change-indicators-sea-surface-temperature) |
+  [Sea Level](https://www.epa.gov/climate-indicators/climate-change-indicators-sea-level)
 ##### Information Visualizations:
 # ![Study Sites](images/study_sites.PNG)
-#### _Fig 1. Heat map annual to relative population size_ (Source: Tuvalabs.com
+#### _Fig 1. Heat map annual to relative population size_ (Source: Tuvalabs.com)
 # ![Sea Water Temperatures](images/sea_water_temps.PNG)
 #### _Fig 2. Temperature map from 2005 - 2015 within the ocean_ (Source: Onlinelibrary.wiley.com)
 # ![Heat Map](images/heat_map.PNG)
 #### _Fig 3. Map of study sites along the Pacific coast of North America. Sites are indicated by dots and study regions by labeled boxes_ (Source: Journals.plos.org)
+# ![Ocean Heat Over Time](https://www.epa.gov/sites/production/files/styles/large/public/2016-07/ocean-heat-download1-2016.png)
+#### _Fig 4. Graph of ocean heat from 1955 - 2015_ (Source: epa.gov)
+# ![Sea Surface Temperatures Over Time](https://www.epa.gov/sites/production/files/styles/large/public/2016-07/sea-surface-temp-download1-2016.png)
+### _Fig 5. Graph of sea surface temperatures from 1880 - 2015_ (Source: epa.gov)
+# ![Sea Level Over Time](https://www.epa.gov/sites/production/files/styles/large/public/2016-07/sea-level-download1-2016.png)
+#### _Fig 6. Graph of sea level from 1880 - 2015_ (Source: epa.gov)
 ##### Teamwork Commitments:
 * As a group, we meet on Sundays from 1pm to 3pm.
   * Arya: Interested in the human influence towards the sea star population. Role - Researcher
