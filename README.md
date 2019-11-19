@@ -28,6 +28,9 @@ Autumn 2019
     States have any impact on the Sea Star population?
   * With recent numbers in Sea Star population dwindling, how will the shallow
     ecosystems be affected and how much will that change the ocean?
+  * How does the population of the other animals in the ecosystem appear to affect the sea star population?
+  * Comparing the global warming temperatures to the general ecosystem where sea stars reside, is there a noticeable trend?
+  *
 ##### Possible Data Set(s):
   [Ochre Sea Star Population](https://tuvalabs.com/datasets/ochre_sea_star_populations/activities) |
   [Sea Stars Distribution](https://onlinelibrary.wiley.com/doi/pdf/10.1111/ddi.12490)
