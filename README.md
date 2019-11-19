@@ -53,3 +53,8 @@ Autumn 2019
 1. [Large Scale Impacts](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0192870)
 2. [Sea Stars Distribution](https://onlinelibrary.wiley.com/doi/pdf/10.1111/ddi.12490)
 3. [Ochre Sea Star Population](https://tuvalabs.com/datasets/ochre_sea_star_populations/activities)
+
+
+
+> **DATASETS(link): https://www.iotc.org/data/datasets
+https://www.webapps.nwfsc.noaa.gov/apex/parrdata/inventory/datasets**
