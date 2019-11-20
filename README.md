@@ -36,7 +36,6 @@ Autumn 2019
   * Comparing the global warming temperatures to the general ecosystem where sea stars reside, is there a noticeable trend?
   * What correlation is found between the sea level and heat maps from the following datasets.
   * When comparing sea level and the oceans ecosystem populations, is there a noticeable trend?
-
 ##### Possible Data Set(s):
   [Ochre Sea Star Population](https://tuvalabs.com/datasets/ochre_sea_star_populations/activities) |
   [Sea Stars Distribution](https://onlinelibrary.wiley.com/doi/pdf/10.1111/ddi.12490) |
