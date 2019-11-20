@@ -1,4 +1,6 @@
 library(shiny)
+library(dplyr)
+library(ggplot2)
 
 ui <- fluidPage(
   page_one <- tabPanel("First Page",
@@ -42,7 +44,7 @@ ui <- navbarPage(
 )
 server <- function(input, output) {
   # output$ {call variable <-}
-  
+
   #return
 }
   
