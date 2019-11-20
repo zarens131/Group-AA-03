@@ -11,7 +11,7 @@ library("shiny")
     States have any impact on the Sea Star population?"),
   sidebarLayout(
     sidebarPanel(
-      
+      # This is where "reactive output" comes into play ex: renderDataTable(),renderTable() etc.
     ),
     mainPanel(
       h3("Primary Content"),
@@ -45,7 +45,9 @@ ui <- navbarPage(
   page_six
 )
 server <- function(input, output) {
+  # output$ {call variable <-}
   
+  #return
 }
   
 shinyApp(ui = ui, server = server)
