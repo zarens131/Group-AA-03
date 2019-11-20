@@ -1,4 +1,4 @@
-library("shiny")
+library(shiny)
 
 ui <- fluidPage(
   titlePanel("Sea Star Population"),
@@ -21,5 +21,8 @@ ui <- navbarPage(
   page_two,         # include the second page content
   page_three        # include the third page content
 )
-server <- function(input, output)
-  shinyApp(ui = my_ui, server = my_server)
+server <- function(input, output) {
+  
+}
+  
+shinyApp(ui = ui, server = server)
