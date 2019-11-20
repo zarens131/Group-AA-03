@@ -42,7 +42,6 @@ Autumn 2019
   [Ocean Heat](https://www.epa.gov/climate-indicators/climate-change-indicators-ocean-heat) |
   [Sea Surface Temperatures](https://www.epa.gov/climate-indicators/climate-change-indicators-sea-surface-temperature) |
   [Sea Level](https://www.epa.gov/climate-indicators/climate-change-indicators-sea-level)
------------------------
 #### **Information Visualizations:**
 # ![Study Sites](images/study_sites.PNG)
 #### _Fig 1. Heat map annual to relative population size_ (Source: Tuvalabs.com)
