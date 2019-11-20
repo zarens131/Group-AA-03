@@ -1,11 +1,7 @@
-<<<<<<< HEAD:app.R
 library(shiny)
 
 ui <- fluidPage(
-=======
-library("shiny")
   page_one <- tabPanel("First Page",
->>>>>>> 371daaf305063397a65af35476c10aebe69faee9:Shinypage.R
   titlePanel("Sea Star Population"),
   "Question 1: Does the rising water temperatures along the Western Coast of the United
     States have any impact on the Sea Star population?"),
