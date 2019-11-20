@@ -1,12 +1,13 @@
+<<<<<<< HEAD:app.R
 library(shiny)
 
 ui <- fluidPage(
+=======
+library("shiny")
+  page_one <- tabPanel(
+>>>>>>> 371daaf305063397a65af35476c10aebe69faee9:Shinypage.R
   titlePanel("Sea Star Population"),
-  
-  mainPanel( h3("Sea Star Ecosystem Analysis")
-  ),
-  
-  page_one <- tabPanel("Question 1: Does the rising water temperatures along the Western Coast of the United
+  "Question 1: Does the rising water temperatures along the Western Coast of the United
     States have any impact on the Sea Star population?"),
   page_two <- tabPanel("Question 2: With recent numbers in Sea Star population dwindling, how will the shallow
     ecosystems be affected and how much will that change the ocean?"),
