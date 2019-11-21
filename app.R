@@ -95,7 +95,17 @@ page_eight <- tabPanel(
   "About Us",
   mainPanel(
     h3("Group Members"),
-    p("Group member"),
+  ),
+  sidebarPanel(
+    p("Group member:"),
+    p("Explanation")
+  ),
+  sidebarPanel(
+    p("Group member:"),
+    p("Explanation")
+  ),
+  sidebarPanel(
+    p("Group member:"),
     p("Explanation")
   )
 )
