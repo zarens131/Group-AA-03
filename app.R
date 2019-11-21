@@ -2,10 +2,12 @@ library(shiny)
 library(dplyr)
 library(ggplot2)
 library(leaflet)
+library(shinythemes)
 
 ui <- fluidPage(
-  page_one <- tabPanel("First Page",
-  titlePanel("Sea Star Population"),
+  #mainPanel() seems to not properly display the "Project Data" label
+  page_one <- tabPanel(
+  "Project Data", titlePanel("Sea Star Population"),
   "Interactive Map And Project Summary", leafletOutput("mymap"))
 )
 
@@ -25,7 +27,7 @@ page_six <- tabPanel(
   "Question 5"
   )
 ui <- navbarPage(
-  "Project Sea Star", # application title
+  theme = shinytheme("superhero"), "Project Sea Star", # application title
   page_one,         # include the first page content
   page_two,         # include the second page content
   page_three,
