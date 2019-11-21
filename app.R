@@ -34,10 +34,6 @@ page_six <- tabPanel(
   titlePanel("Sea Star Population Map"),
   leafletOutput("mymap")
   )
-page_seven <- tabPanel("Map",
-  titlePanel("Sea Star Population Map"),
-  leafletOutput("mymap")
-  )
 ui <- navbarPage(
   "Project Sea Star", # application title
   page_one,         # include the first page content
