@@ -176,11 +176,9 @@ server <- function(input, output) {
       geom_ribbon(aes(ymax = level + interval, ymin = level - interval),
                   fill = "grey70",
                   alpha = 0.5) +
-      geom_line(aes(x = Year, y = zero, color = "Normal Sea Level at 1880"))
-    
-    sea_level_plot + scale_color_manual(values = c("black", "red"))
-    
-    sea_level_plot + scale_x_continuous(breaks = seq(1880, 2020, 20)) +
+      geom_line(aes(x = Year, y = zero, color = "Normal Sea Level at 1880")) +
+      scale_color_manual(values = c("black", "red")) +
+      scale_x_continuous(breaks = seq(1880, 2020, 20)) +
       scale_y_continuous(breaks = seq(0, 12, 2))
   })
   
