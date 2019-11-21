@@ -86,9 +86,15 @@ page_seven <- tabPanel(
 )
 page_seven <- tabPanel(
   "Conclusion",
+  sidebarPanel(
+    h3("Navbar")
+  ),
   mainPanel(
     h3("Conclusion Statement"),
     p("Conclusion Statement Paragraphs")
+  ),
+  sidebarPanel(
+    h3("Images")
   )
 )
 page_eight <- tabPanel(
