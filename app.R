@@ -36,7 +36,7 @@ page_one <- tabPanel(
 )
 page_two <- tabPanel(
   "Question 2", titlePanel(
-  "With recent numbers in Sea Star population dwindling, how will the shallow 
+  "With recent numbers in Sea Star population dwindling, how will the shallow
   ecosystems be affected and how will the effects change the ocean?"),
   h2("Research Questions and findings"),
   sidebarPanel(
@@ -45,7 +45,7 @@ page_two <- tabPanel(
 )
 page_three <- tabPanel(
   "Question 3", titlePanel(
-    "How does the population of the other animals in the 
+    "How does the population of the other animals in the
     ecosystem appear to affect the sea star population?"),
   h2("Research Questions and findings"),
   sidebarPanel(
@@ -54,7 +54,7 @@ page_three <- tabPanel(
 )
 page_four <- tabPanel(
   "Question 4", titlePanel(
-    "Comparing the global warming temperatures to the general 
+    "Comparing the global warming temperatures to the general
     ecosystem where sea stars reside, is there a noticeable trend?"),
   h2("Research Questions and findings"),
   sidebarPanel(
@@ -63,17 +63,22 @@ page_four <- tabPanel(
 )
 page_five <- tabPanel(
   "Question 5", titlePanel(
-    "What correlation is found between the sea level 
+    "What correlation is found between the sea level
     and heat maps from the following datasets?"),
   h2("Research Questions and findings"),
   sidebarPanel(
     h3("Research Findings")
   )
 )
-  
+
 page_six <- tabPanel(
+  "Question 5",
+  titlePanel("Sea Level Graph"),
+  plotOutput("sealevels")
+)
+page_seven <- tabPanel(
   "Question 6", titlePanel(
-    "When comparing sea level and the oceans ecosystem populations, 
+    "When comparing sea level and the oceans ecosystem populations,
     is there a noticeable trend?"),
   h2("Research Questions and findings"),
   sidebarPanel(
@@ -132,15 +137,33 @@ server <- function(input, output) {
   popup_map <- paste(sep = "<br/>",
                      paste("Site: ", data1_year_total_starfish$Site, sep = ""),
                      paste("Starfish Population: ",
-                            data1_year_total_starfish$sum, sep = ""))
+                           data1_year_total_starfish$sum, sep = ""))
 
   output$mymap <- renderLeaflet({
     leaflet(data = data1_by_year_df) %>%
-                  addTiles() %>%
-                  addCircleMarkers(lat = ~Lat,
-                                   lng = ~Long,
-                                   popup = popup_map,
-                                   stroke = FALSE, fillOpacity = 0.5)
+      addTiles() %>%
+      addCircleMarkers(lat = ~Lat,
+                       lng = ~Long,
+                       popup = popup_map,
+                       stroke = FALSE, fillOpacity = 0.5)
+  })
+
+  sea_levels <- read.csv('docs/sea-level_fig-1.csv',
+                         stringsAsFactors = FALSE)
+
+  output$sealevels <- renderPlot({
+    ggplot(data = sea_levels, aes(x = Year, y = level)) +
+      geom_line(aes(x = Year, y = level, color = "Sea Level")) +
+      geom_point() +
+      geom_ribbon(aes(ymax = level + interval, ymin = level - interval),
+                  fill = "grey70",
+                  alpha = 0.5) +
+      geom_line(aes(x = Year, y = zero, color = "Normal Sea Level at 1880"))
+
+    sea_level_plot + scale_color_manual(values = c("black", "red"))
+
+    sea_level_plot + scale_x_continuous(breaks = seq(1880, 2020, 20)) +
+      scale_y_continuous(breaks = seq(0, 12, 2))
   })
 
   #return
