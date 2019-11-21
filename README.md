@@ -28,8 +28,7 @@ Autumn 2019
   cause of the disease yet, but in coming years, research may unveil the cause.
 
 ##### Research Question(s):
-  * Are the rising water temperatures along the Western Coast of the United
-    States having an impact on the Sea Star population?
+  * Is there a correlation between Sea Star Population density and areas of concentrated ocean heat?
   * With recent numbers in Sea Star population dwindling, how will the shallow
     ecosystems be affected and how much will that change the ocean?
   * How does the population of the other animals in the ecosystem appear to affect the sea star population?
