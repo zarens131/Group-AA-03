@@ -28,9 +28,9 @@ Autumn 2019
   cause of the disease yet, but in coming years, research may unveil the cause.
 
 ##### Research Question(s):
-  * Is there a correlation between Sea Star Population density and areas of concentrated ocean heat?
+  * Is there a correlation between Sea Star Population density and areas of concentrated ocean heat? (main page: slider tab for years: population density, changes colors per year) (question 1: year by year map: radio buttons)
   * With recent numbers in Sea Star population dwindling, how will the shallow
-    ecosystems be affected and how much will that change the ocean?
+    ecosystems be affected and how much will that change the ocean? 
   * How does the population of the other animals in the ecosystem appear to affect the sea star population?
   * Comparing the global warming temperatures to the general ecosystem where sea stars reside, is there a noticeable trend?
   * What correlation is found between the sea level and heat maps from the following datasets.
