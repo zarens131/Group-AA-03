@@ -62,8 +62,10 @@ page_four <- tabPanel(
   h2("Research Questions and findings"),
   sidebarPanel(
     h3("Research Findings")
-  )
+  ),
+  plotOutput("bar_plot")
 )
+
 page_five <- tabPanel(
   "Question 5", titlePanel(
   "What correlation is found between the sea level
@@ -73,11 +75,13 @@ page_five <- tabPanel(
     h3("Research Findings")
   )
 )
+
 page_six <- tabPanel(
   "Question 5",
   titlePanel("Sea Level Graph"),
   plotOutput("sealevels")
 )
+
 page_seven <- tabPanel(
   "Question 6", titlePanel(
   "When comparing sea level and the oceans ecosystem populations,
@@ -183,8 +187,18 @@ server <- function(input, output) {
     sea_level_plot + scale_x_continuous(breaks = seq(1880, 2020, 20)) +
       scale_y_continuous(breaks = seq(0, 12, 2))
   })
-
+  file <- read.csv('docs/ocean-heat_fig-1.csv', stringsAsFactors = FALSE)
+    
+  output$bar_plot <- renderPlot({
+    bar_plot <- ggplot(file, aes(x = Year, y = NOAA)) +
+      geom_bar(stat="identity", position=position_dodge(), fill = "darkred")+
+      geom_text(aes(label = NOAA), vjust = 1.6, size = 1.5) +
+      theme_minimal()
+    bar_plot
+  })
+    
   #return
+  
 }
 
 shinyApp(ui = ui, server = server)
