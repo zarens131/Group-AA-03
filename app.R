@@ -37,17 +37,16 @@ page_five <- tabPanel(
     and heat maps from the following datasets?")
 )
 page_six <- tabPanel(
-  <<<<<<< HEAD
   "Question 5",
   titlePanel("Sea Level Graph"),
   plotOutput("sealevels")
 )
-=======
+page_seven <- tabPanel(
   "Question 6", titlePanel(
     "When comparing sea level and the oceans ecosystem populations, 
     is there a noticeable trend?")
 )
->>>>>>> 99433b2a1a6f0577cee82c0eb4291827005e25b0
+
 ui <- navbarPage(
   theme = shinytheme("superhero"), "Project Sea Star", # application title
   main_page,         # include the first page content
