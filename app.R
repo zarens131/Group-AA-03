@@ -31,6 +31,9 @@ page_one <- tabPanel(
   States having an impact on the Sea Star population?"),
   h2("Research Questions and findings"),
   sidebarPanel(
+    h3("Visual")
+  ),
+  sidebarPanel(
     h5("Research Findings")
   )
 )
