@@ -7,6 +7,7 @@ library(ggplot2)
 
 data1 <- read.csv('docs/project_data_set_1.csv', stringsAsFactors = FALSE)
 
+data1_as_date <- data1
 
+data1_as_date$Date <- as.Date(data1_as_date$Date, "%m/%d/%Y")
 
-data1_as_date <- as.Date(data1, )
