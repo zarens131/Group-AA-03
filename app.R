@@ -13,22 +13,22 @@ ui <- fluidPage(
   titlePanel("Sea Star Population"), #displays page title
   leafletOutput("mymap"),
     sidebarPanel(
+      h3("Navigation Bar")
+    ),
+    sidebarPanel(
       h3("Research & Background"),
       p("Research & Background summary")
     ),
     sidebarPanel(
-      h3("Navigation Bar")
-    ),
-    sidebarPanel(
-    h3("Visual Controls/Key"),
-    p("brief statement on key")
+      h3("Visual Controls/Key"),
+      p("brief statement on key")
     )
   )
 )
 
 page_one <- tabPanel(
   "Question 1", titlePanel("Are the rising water temperatures along the Western Coast of the United
-    States having an impact on the Sea Star population?"),
+  States having an impact on the Sea Star population?"),
   h2("Research Questions and findings"),
   sidebarPanel(
     h5("Research Findings")
@@ -45,8 +45,8 @@ page_two <- tabPanel(
 )
 page_three <- tabPanel(
   "Question 3", titlePanel(
-    "How does the population of the other animals in the
-    ecosystem appear to affect the sea star population?"),
+  "How does the population of the other animals in the
+  ecosystem appear to affect the sea star population?"),
   h2("Research Questions and findings"),
   sidebarPanel(
     h3("Research Findings")
@@ -54,8 +54,8 @@ page_three <- tabPanel(
 )
 page_four <- tabPanel(
   "Question 4", titlePanel(
-    "Comparing the global warming temperatures to the general
-    ecosystem where sea stars reside, is there a noticeable trend?"),
+  "Comparing the global warming temperatures to the general
+  ecosystem where sea stars reside, is there a noticeable trend?"),
   h2("Research Questions and findings"),
   sidebarPanel(
     h3("Research Findings")
@@ -63,14 +63,13 @@ page_four <- tabPanel(
 )
 page_five <- tabPanel(
   "Question 5", titlePanel(
-    "What correlation is found between the sea level
-    and heat maps from the following datasets?"),
+  "What correlation is found between the sea level
+  and heat maps from the following datasets?"),
   h2("Research Questions and findings"),
   sidebarPanel(
     h3("Research Findings")
   )
 )
-
 page_six <- tabPanel(
   "Question 5",
   titlePanel("Sea Level Graph"),
@@ -78,8 +77,8 @@ page_six <- tabPanel(
 )
 page_seven <- tabPanel(
   "Question 6", titlePanel(
-    "When comparing sea level and the oceans ecosystem populations,
-    is there a noticeable trend?"),
+  "When comparing sea level and the oceans ecosystem populations,
+  is there a noticeable trend?"),
   h2("Research Questions and findings"),
   sidebarPanel(
     h3("Research Findings")
@@ -103,8 +102,8 @@ page_eight <- tabPanel(
 
 ui <- navbarPage(
   theme = shinytheme("superhero"), "Project Sea Star", # application title
-  main_page,         # include the first page content
-  page_one,         # include the second page content
+  main_page, #creates main page
+  page_one, #creates other tab pages
   page_two,
   page_three,
   page_four,
