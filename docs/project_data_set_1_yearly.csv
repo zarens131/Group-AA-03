@@ -1,0 +1,236 @@
+Case,Year,Site,Lat,Long,Protected,Color,Count,Count.Duration,Count.Per.10million,School
+1,2007,Pigeon Point,37.1829,-122.3928,n,Orange,10,30,0.6,Farallones Marine Sanctuary Association
+2,2007,Pigeon Point,37.1829,-122.3928,n,Purple,73,30,4.39,Farallones Marine Sanctuary Association
+3,2007,Pigeon Point,37.1829,-122.3928,n,Orange,10,30,0.6,Farallones Marine Sanctuary Association
+4,2007,Pigeon Point,37.1829,-122.3928,n,Purple,25,30,1.5,Farallones Marine Sanctuary Association
+5,2007,Natural Bridges,36.9502,-122.0576,y,Orange,18,15,0.33,Center for Advanced Research and Technology (CART)
+6,2007,Natural Bridges,36.9502,-122.0576,y,Orange,20,15,0.37,Center for Advanced Research and Technology (CART)
+7,2007,Natural Bridges,36.9502,-122.0576,y,Orange,12,15,0.22,Center for Advanced Research and Technology (CART)
+8,2007,Natural Bridges,36.9502,-122.0576,y,Orange,6,15,0.11,Center for Advanced Research and Technology (CART)
+9,2007,Natural Bridges,36.9502,-122.0576,y,Purple,47,15,0.87,Center for Advanced Research and Technology (CART)
+10,2007,Natural Bridges,36.9502,-122.0576,y,Purple,36,15,0.67,Center for Advanced Research and Technology (CART)
+11,2007,Natural Bridges,36.9502,-122.0576,y,Purple,34,15,0.63,Center for Advanced Research and Technology (CART)
+12,2007,Pigeon Point,37.1829,-122.3928,y,Purple,45,15,0.83,Center for Advanced Research and Technology (CART)
+13,2007,Pigeon Point,37.1829,-122.3928,n,Orange,6,20,0.36,Farallones Marine Sanctuary Association
+14,2007,Pigeon Point,37.1829,-122.3928,n,Purple,23,20,1.38,Farallones Marine Sanctuary Association
+15,2007,Pigeon Point,37.1829,-122.3928,n,Orange,8,73,0.48,Farallones Marine Sanctuary Association
+16,2007,Pigeon Point,37.1829,-122.3928,n,Purple,54,73,3.25,Farallones Marine Sanctuary Association
+17,2007,Pigeon Point,37.1829,-122.3928,n,Orange,9,20,0.54,Pescadero HS
+18,2007,Pigeon Point,37.1829,-122.3928,n,Purple,43,20,2.59,Pescadero HS
+19,2008,Pigeon Point,37.1829,-122.3928,n,Orange,9,30,0.54,Farallones Marine Sanctuary Association
+20,2008,Pigeon Point,37.1829,-122.3928,n,Purple,27,30,2.59,Farallones Marine Sanctuary Association
+21,2008,Pigeon Point,37.1829,-122.3928,n,Orange,10,25,0.54,Pescadero HS
+22,2008,Pigeon Point,37.1829,-122.3928,n,Purple,21,25,1.62,Pescadero HS
+23,2008,Pillar Point,37.503,-122.4823,y,Orange,9,30,0.6,Farallones Marine Sanctuary Association
+24,2008,Pillar Point,37.503,-122.4823,y,Purple,48,30,1.26,Farallones Marine Sanctuary Association
+25,2009,Pigeon Point,37.1829,-122.3928,n,Orange,7,30,0.69,Farallones Marine Sanctuary Association
+26,2009,Pigeon Point,37.1829,-122.3928,n,Purple,21,30,3.68,Farallones Marine Sanctuary Association
+27,2009,Pigeon Point,37.1829,-122.3928,n,Orange,4,20,0.42,Pescadero HS
+28,2009,Pigeon Point,37.1829,-122.3928,n,Purple,33,20,1.26,Pescadero HS
+29,2009,Natural Bridges,36.9502,-122.0576,y,Orange,19,150,0.24,Center for Advanced Research and Technology (CART)
+30,2009,Natural Bridges,36.9502,-122.0576,y,Orange,34,147,1.98,Center for Advanced Research and Technology (CART)
+31,2009,Natural Bridges,36.9502,-122.0576,y,Orange,5,180,0.35,Center for Advanced Research and Technology (CART)
+32,2009,Natural Bridges,36.9502,-122.0576,y,Orange,8,153,0.63,Center for Advanced Research and Technology (CART)
+33,2009,Natural Bridges,36.9502,-122.0576,y,Purple,22,180,0.09,Center for Advanced Research and Technology (CART)
+34,2009,Natural Bridges,36.9502,-122.0576,y,Purple,41,153,0.15,Center for Advanced Research and Technology (CART)
+35,2009,Natural Bridges,36.9502,-122.0576,y,Purple,43,150,0.41,Center for Advanced Research and Technology (CART)
+36,2009,Natural Bridges,36.9502,-122.0576,y,Purple,30,147,0.76,Center for Advanced Research and Technology (CART)
+37,2009,Natural Bridges,36.9502,-122.0576,y,Orange,62,45,0.8,Center for Advanced Research and Technology (CART)
+38,2009,Natural Bridges,36.9502,-122.0576,y,Purple,122,45,0.56,Center for Advanced Research and Technology (CART)
+39,2009,Pillar Point,37.503,-122.4823,y,Orange,7,7,1.15,UCSC
+40,2009,Pillar Point,37.503,-122.4823,y,Purple,13,7,2.26,UCSC
+41,2009,Davenport Landing,37.0248,-122.2156,n,Purple,23,0,0.54,Lick Wilmerding HS
+42,2009,Davenport Landing,37.0248,-122.2156,n,Orange,11,0,1.46,Lick Wilmerding HS
+43,2009,Natural Bridges,36.9502,-122.0576,y,Orange,89,30,2.9,UCSC
+44,2009,Natural Bridges,36.9502,-122.0576,y,Purple,269,30,1.1,UCSC
+45,2009,Natural Bridges,36.9502,-122.0576,y,Orange,55,19,1.65,Pacific Collegiate School
+46,2009,Natural Bridges,36.9502,-122.0576,y,Purple,218,19,4.98,Pacific Collegiate School
+47,2010,Pillar Point,37.503,-122.4823,y,Orange,21,30,1.02,Pacific Collegiate School
+48,2010,Pillar Point,37.503,-122.4823,y,Purple,66,30,4.04,Pacific Collegiate School
+49,2010,Pigeon Point,37.1829,-122.3928,n,Orange,9,20,1.61,Farallones Marine Sanctuary Association
+50,2010,Pigeon Point,37.1829,-122.3928,n,Purple,45,20,5.06,Farallones Marine Sanctuary Association
+51,2010,Natural Bridges,36.9502,-122.0576,y,Orange,30,60,0.54,Farallones Marine Sanctuary Association
+52,2010,Natural Bridges,36.9502,-122.0576,y,Purple,96,60,1.94,Farallones Marine Sanctuary Association
+53,2010,Pigeon Point,37.1829,-122.3928,n,Orange,7,15,0.77,Center for Advanced Research and Technology (CART)
+54,2010,Pigeon Point,37.1829,-122.3928,n,Purple,25,15,2.84,Center for Advanced Research and Technology (CART)
+55,2010,Natural Bridges,36.9502,-122.0576,y,Orange,29,30,0.06,Pescadero HS
+56,2010,Natural Bridges,36.9502,-122.0576,y,Purple,105,30,1.08,Pescadero HS
+57,2010,Pillar Point,37.503,-122.4823,y,Orange,10,50,0.12,UCSC
+58,2010,Pillar Point,37.503,-122.4823,y,Purple,37,50,0.9,UCSC
+59,2010,Pigeon Point,37.1829,-122.3928,n,Orange,1,30,1.1,The Urban School
+60,2010,Pigeon Point,37.1829,-122.3928,n,Purple,18,30,0.03,The Urban School
+61,2010,Pigeon Point,37.1829,-122.3928,n,Orange,2,20,2.1,International School of the Peninsula
+62,2010,Pigeon Point,37.1829,-122.3928,n,Purple,15,20,0.6,International School of the Peninsula
+63,2010,Davenport Landing,37.0248,-122.2156,n,Purple,11,5,2.9,James Logan High School
+64,2010,Davenport Landing,37.0248,-122.2156,n,Orange,3,5,1.4,James Logan High School
+65,2010,Davenport Landing,37.0248,-122.2156,n,Purple,21,5,0.54,UCSC
+66,2010,Davenport Landing,37.0248,-122.2156,n,Orange,6,5,3.75,UCSC
+67,2010,Davenport Landing,37.0248,-122.2156,n,Purple,29,5,2.1,UCSC
+68,2010,Davenport Landing,37.0248,-122.2156,n,Orange,14,5,0.6,UCSC
+69,2010,Pillar Point,37.503,-122.4823,y,Orange,7,65,1.9,UCSC
+70,2010,Pillar Point,37.503,-122.4823,y,Purple,49,65,1.1,UCSC
+71,2010,Davenport Landing,37.0248,-122.2156,n,Purple,21,5,2.1,Farallones Marine Sanctuary Association
+72,2010,Davenport Landing,37.0248,-122.2156,n,Orange,6,5,0.8,Farallones Marine Sanctuary Association
+73,2010,Davenport Landing,37.0248,-122.2156,n,Purple,19,10,1.3,UCSC
+74,2010,Davenport Landing,37.0248,-122.2156,n,Orange,11,10,4.98,UCSC
+75,2010,Davenport Landing,37.0248,-122.2156,n,Purple,21,15,2.3,UCSC
+76,2010,Davenport Landing,37.0248,-122.2156,n,Orange,8,15,0.9,UCSC
+77,2010,Pillar Point,37.503,-122.4823,y,Orange,17,60,1.07,UCSC
+78,2010,Pillar Point,37.503,-122.4823,y,Purple,65,60,1.07,UCSC
+79,2010,Davenport Landing,37.0248,-122.2156,n,Purple,23,15,4.37,The Urban School
+80,2010,Davenport Landing,37.0248,-122.2156,n,Orange,9,15,3.52,The Urban School
+81,2010,Pillar Point,37.503,-122.4823,y,Orange,14,30,1.53,UCSC
+82,2010,Pillar Point,37.503,-122.4823,y,Purple,14,30,3.91,UCSC
+83,2010,Pillar Point,37.503,-122.4823,y,Orange,57,30,1.3,California Academy of Sciences
+84,2010,Pillar Point,37.503,-122.4823,y,Purple,46,30,5.21,California Academy of Sciences
+85,2011,Pillar Point,37.503,-122.4823,y,Orange,20,50,0.18,California Academy of Sciences
+86,2011,Pillar Point,37.503,-122.4823,y,Purple,51,50,0.42,California Academy of Sciences
+87,2011,Pillar Point,37.503,-122.4823,y,Orange,17,30,0.18,Romberg Tiburon Center
+88,2011,Pillar Point,37.503,-122.4823,y,Purple,68,30,1.32,Romberg Tiburon Center
+89,2011,Pigeon Point,37.1829,-122.3928,n,Orange,3,15,0.36,Lick Wilmerding HS
+90,2011,Pigeon Point,37.1829,-122.3928,n,Purple,7,15,0.9,Lick Wilmerding HS
+91,2011,Pigeon Point,37.1829,-122.3928,n,Orange,3,30,0.69,American High School
+92,2011,Pigeon Point,37.1829,-122.3928,n,Purple,22,30,1.92,American High School
+93,2011,Pigeon Point,37.1829,-122.3928,n,Orange,6,30,0.23,International School of the Peninsula
+94,2011,Pigeon Point,37.1829,-122.3928,n,Purple,15,30,1.23,International School of the Peninsula
+95,2011,Pillar Point,37.503,-122.4823,y,Orange,9,20,0.3,James Logan High School
+96,2011,Pillar Point,37.503,-122.4823,y,Purple,25,20,1.75,James Logan High School
+97,2011,Pillar Point,37.503,-122.4823,y,Orange,3,15,0.24,Farallones Marine Sanctuary Association
+98,2011,Pillar Point,37.503,-122.4823,y,Purple,16,15,0.2,Farallones Marine Sanctuary Association
+99,2011,Pigeon Point,37.1829,-122.3928,n,Orange,5,55,0.33,The Urban School
+100,2011,Pigeon Point,37.1829,-122.3928,n,Purple,29,55,0.83,The Urban School
+101,2011,Natural Bridges,36.9502,-122.0576,y,Orange,13,14,0.87,Farallones Marine Sanctuary Association
+102,2011,Natural Bridges,36.9502,-122.0576,y,Orange,11,20,0.52,Farallones Marine Sanctuary Association
+103,2011,Natural Bridges,36.9502,-122.0576,y,Orange,18,15,0.61,FMSA LiMPETS Teacher Workshop
+104,2011,Natural Bridges,36.9502,-122.0576,y,Purple,45,14,2.91,FMSA LiMPETS Teacher Workshop
+105,2011,Natural Bridges,36.9502,-122.0576,y,Purple,47,20,0.56,FMSA LiMPETS Teacher Workshop
+106,2011,Natural Bridges,36.9502,-122.0576,y,Purple,28,15,0.5,FMSA LiMPETS Teacher Workshop
+107,2011,Pillar Point,37.503,-122.4823,y,Orange,8,40,1.11,FMSA LiMPETS Teacher Workshop
+108,2011,Pillar Point,37.503,-122.4823,y,Purple,38,40,0.8,FMSA LiMPETS Teacher Workshop
+109,2011,Natural Bridges,36.9502,-122.0576,y,Orange,30,60,0.77,Farallones Marine Sanctuary Association
+110,2011,Natural Bridges,36.9502,-122.0576,y,Orange,27,60,3.83,Farallones Marine Sanctuary Association
+111,2011,Natural Bridges,36.9502,-122.0576,y,Purple,60,60,0.84,Aptos High School
+112,2011,Natural Bridges,36.9502,-122.0576,y,Purple,43,60,3.52,Aptos High School
+113,2011,Pillar Point,37.503,-122.4823,y,Orange,10,30,1.5,Aptos High School
+114,2011,Pillar Point,37.503,-122.4823,y,Purple,50,30,0.2,Aptos High School
+115,2011,Pillar Point,37.503,-122.4823,y,Orange,11,20,1.69,The Urban School
+116,2011,Pillar Point,37.503,-122.4823,y,Purple,46,20,5.13,The Urban School
+117,2011,Davenport Landing,37.0248,-122.2156,n,Purple,15,20,0.69,Drew School
+118,2011,Davenport Landing,37.0248,-122.2156,n,Orange,2,20,1.53,Drew School
+119,2012,Pillar Point,37.503,-122.4823,y,Orange,22,36,0.77,UCSC
+120,2012,Pillar Point,37.503,-122.4823,y,Purple,67,36,0.54,UCSC
+121,2012,Pillar Point,37.503,-122.4823,y,Orange,9,13,0.46,Farallones Marine Sanctuary Association
+122,2012,Pillar Point,37.503,-122.4823,y,Purple,20,13,1.92,Farallones Marine Sanctuary Association
+123,2012,Pillar Point,37.503,-122.4823,y,Orange,10,9,1.23,June Jordan School for Equity
+124,2012,Pillar Point,37.503,-122.4823,y,Orange,7,15,1.15,June Jordan School for Equity
+125,2012,Pillar Point,37.503,-122.4823,y,Orange,6,22,0.3,SFSU
+126,2012,Pillar Point,37.503,-122.4823,y,Purple,25,9,0.18,SFSU
+127,2012,Pillar Point,37.503,-122.4823,y,Purple,16,15,1.2,The Urban School
+128,2012,Pillar Point,37.503,-122.4823,y,Purple,15,22,0.72,SFSU
+129,2012,Pigeon Point,37.1829,-122.3928,n,Orange,5,20,1.1,SFSU
+130,2012,Pigeon Point,37.1829,-122.3928,n,Orange,3,15,0,The Urban School
+131,2012,Pigeon Point,37.1829,-122.3928,n,Purple,20,20,0.31,James Logan High School
+132,2012,Pigeon Point,37.1829,-122.3928,n,Purple,12,15,0.3,James Logan High School
+133,2012,Davenport Landing,37.0248,-122.2156,n,Purple,11,30,1.15,James Logan High School
+134,2012,Davenport Landing,37.0248,-122.2156,n,Orange,0,30,1.46,James Logan High School
+135,2012,Pillar Point,37.503,-122.4823,y,Orange,4,17,2.3,UCSC
+136,2012,Pillar Point,37.503,-122.4823,y,Purple,30,17,4.06,UCSC
+137,2012,Pillar Point,37.503,-122.4823,y,Orange,15,15,1.76,The Urban School
+138,2012,Pillar Point,37.503,-122.4823,y,Orange,19,17,2.76,The Urban School
+139,2012,Pillar Point,37.503,-122.4823,y,Purple,30,15,4.37,Berkely High School
+140,2012,Pillar Point,37.503,-122.4823,y,Purple,53,17,3.68,Berkely High School
+141,2012,Pillar Point,37.503,-122.4823,y,Orange,23,20,0.7,Berkely High School
+142,2012,Pillar Point,37.503,-122.4823,y,Orange,36,13,0.2,Berkely High School
+143,2012,Pillar Point,37.503,-122.4823,y,Purple,57,20,0.61,Berkely High School
+144,2012,Pillar Point,37.503,-122.4823,y,Purple,48,13,2.99,Berkely High School
+145,2012,Davenport Landing,37.0248,-122.2156,n,Purple,7,10,0.35,Berkely High School
+146,2013,Davenport Landing,37.0248,-122.2156,n,Orange,2,10,1.85,Berkely High School
+147,2013,Pillar Point,37.503,-122.4823,y,Orange,8,28,1,UCSC
+148,2013,Pillar Point,37.503,-122.4823,y,Purple,39,28,0.1,UCSC
+149,2013,Natural Bridges,36.9502,-122.0576,y,Orange,19,45,0,Piedmont High School
+150,2013,Natural Bridges,36.9502,-122.0576,y,Purple,100,45,0.23,Piedmont High School
+151,2013,Davenport Landing,37.0248,-122.2156,n,Purple,10,5,0.02,Camp SEA Lab
+152,2013,Davenport Landing,37.0248,-122.2156,n,Orange,1,5,0.04,Camp SEA Lab
+153,2013,Pillar Point,37.503,-122.4823,y,Orange,0,36,0.07,UCSC
+154,2013,Pillar Point,37.503,-122.4823,y,Purple,3,36,0.06,UCSC
+155,2013,Natural Bridges,36.9502,-122.0576,y,Orange,1,75,0,Farallones Marine Sanctuary Association
+156,2013,Natural Bridges,36.9502,-122.0576,y,Orange,2,60,0,Farallones Marine Sanctuary Association
+157,2013,Natural Bridges,36.9502,-122.0576,y,Purple,4,60,0.15,UCSC
+158,2013,Natural Bridges,36.9502,-122.0576,y,Purple,3,75,0.15,UCSC
+159,2013,Davenport Landing,37.0248,-122.2156,n,Purple,0,15,0,UCSC
+160,2013,Davenport Landing,37.0248,-122.2156,n,Orange,0,15,0,UCSC
+161,2013,Pillar Point,37.503,-122.4823,y,Orange,2,30,0.3,UCSC
+162,2014,Pillar Point,37.503,-122.4823,y,Purple,2,30,0.3,UCSC
+163,2014,Davenport Landing,37.0248,-122.2156,n,Purple,0,15,0,James Logan High School
+164,2014,Davenport Landing,37.0248,-122.2156,n,Purple,0,15,0,James Logan High School
+165,2014,Davenport Landing,37.0248,-122.2156,n,Orange,0,15,0,UCSC
+166,2014,Davenport Landing,37.0248,-122.2156,n,Orange,0,15,0,Pacific Grove Museum of Natural History
+167,2014,Pigeon Point,37.1829,-122.3928,n,Orange,0,7,0,Pacific Grove Museum of Natural History
+168,2014,Pigeon Point,37.1829,-122.3928,n,Purple,0,7,0,UCSC
+169,2014,Pigeon Point,37.1829,-122.3928,n,Orange,0,7,0,Farallones Marine Sanctuary Association
+170,2014,Pigeon Point,37.1829,-122.3928,n,Purple,0,7,0,FMSA LiMPETS Teacher Workshop
+171,2014,Pillar Point,37.503,-122.4823,y,Orange,0,45,0,Farallones Marine Sanctuary Association
+172,2014,Pillar Point,37.503,-122.4823,y,Orange,0,45,0,FMSA LiMPETS Teacher Workshop
+173,2014,Pillar Point,37.503,-122.4823,y,Purple,5,45,0.38,Farallones Marine Sanctuary Association
+174,2014,Pillar Point,37.503,-122.4823,y,Orange,5,45,0.38,FMSA LiMPETS Teacher Workshop
+175,2014,Natural Bridges,36.9502,-122.0576,y,Orange,1,12,0.02,Farallones Marine Sanctuary Association
+176,2014,Natural Bridges,36.9502,-122.0576,y,Purple,0,12,0,FMSA LiMPETS Teacher Workshop
+177,2014,Natural Bridges,36.9502,-122.0576,y,Orange,0,13,0,Skyline High School
+178,2014,Natural Bridges,36.9502,-122.0576,y,Purple,0,13,0,Skyline High School
+179,2014,Natural Bridges,36.9502,-122.0576,y,Orange,0,21,0,Pacific Grove Museum of Natural History
+180,2014,Natural Bridges,36.9502,-122.0576,y,Purple,0,21,0,Pacific Grove Museum of Natural History
+181,2014,Pigeon Point,37.1829,-122.3928,n,Orange,0,12,0,Pacific Grove Museum of Natural History
+182,2014,Pigeon Point,37.1829,-122.3928,n,Purple,0,12,0,Pacific Grove Museum of Natural History
+183,2014,Natural Bridges,36.9502,-122.0576,y,Orange,11,20,0.2,American High School
+184,2014,Natural Bridges,36.9502,-122.0576,y,Purple,44,20,0.81,American High School
+185,2014,Pillar Point,37.503,-122.4823,y,Purple,2,42,0.15,Pacific Grove Museum of Natural History
+186,2014,Pillar Point,37.503,-122.4823,y,Orange,6,42,0.46,Pacific Grove Museum of Natural History
+187,2014,Pillar Point,37.503,-122.4823,y,Purple,3,20,0.23,Farallones Marine Sanctuary Association
+188,2014,Natural Bridges,36.9502,-122.0576,y,Orange,6,5,0.11,Farallones Marine Sanctuary Association
+189,2014,Natural Bridges,36.9502,-122.0576,y,Purple,14,5,0.26,SFSU
+190,2014,Natural Bridges,36.9502,-122.0576,y,Orange,5,60,0.09,Glacier High School
+191,2015,Natural Bridges,36.9502,-122.0576,y,Purple,0,60,0,Glacier High School
+192,2015,Davenport Landing,37.0248,-122.2156,n,Purple,0,20,0,Lincoln High School
+193,2015,Davenport Landing,37.0248,-122.2156,n,Orange,0,20,0,Lincoln High School
+194,2015,Pigeon Point,37.1829,-122.3928,n,Orange,2,20,0.12,UCSC
+195,2015,Pigeon Point,37.1829,-122.3928,n,Purple,2,20,0.12,UCSC
+196,2015,Natural Bridges,36.9502,-122.0576,y,Orange,6,15,0.11,James Logan High School
+197,2015,Natural Bridges,36.9502,-122.0576,y,Purple,1,15,0.02,James Logan High School
+198,2015,Natural Bridges,36.9502,-122.0576,y,Orange,3,60,0.06,Pacific Grove Museum of Natural History
+199,2015,Natural Bridges,36.9502,-122.0576,y,Purple,8,60,0.15,Pacific Grove Museum of Natural History
+200,2015,Pigeon Point,37.1829,-122.3928,n,Orange,1,30,0.06,Lincoln High School
+201,2015,Pigeon Point,37.1829,-122.3928,n,Purple,2,30,0.12,Lincoln High School
+202,2015,Pillar Point,37.503,-122.4823,y,Orange,1,16,0.08,American High School
+203,2015,Pillar Point,37.503,-122.4823,y,Purple,2,16,0.15,American High School
+204,2015,Natural Bridges,36.9502,-122.0576,y,Orange,2,15,0.04,Piedmont High School
+205,2015,Natural Bridges,36.9502,-122.0576,y,Purple,7,15,0.13,Piedmont High School
+206,2015,Pigeon Point,37.1829,-122.3928,n,Orange,1,21,0.06,Pacific Grove Museum of Natural History
+207,2015,Pigeon Point,37.1829,-122.3928,n,Purple,1,21,0.06,Pacific Grove Museum of Natural History
+208,2015,Pillar Point,37.503,-122.4823,y,Orange,0,17,0,American High School
+209,2015,Pillar Point,37.503,-122.4823,y,Purple,4,17,0.31,American High School
+210,2015,Pillar Point,37.503,-122.4823,y,Orange,1,20,0.08,Piedmont High School
+211,2015,Pillar Point,37.503,-122.4823,y,Orange,1,15,0.08,Piedmont High School
+212,2015,Pillar Point,37.503,-122.4823,y,Purple,2,20,0.15,The Urban School
+213,2015,Pillar Point,37.503,-122.4823,y,Purple,2,15,0.15,The Urban School
+214,2015,Natural Bridges,36.9502,-122.0576,y,Orange,5,60,0.09,The Urban School
+215,2015,Natural Bridges,36.9502,-122.0576,y,Purple,26,60,0.48,The Urban School
+216,2015,Davenport Landing,37.0248,-122.2156,n,Purple,6,10,0.6,Pacific Grove Museum of Natural History
+217,2015,Davenport Landing,37.0248,-122.2156,n,Orange,0,10,0,Pacific Grove Museum of Natural History
+218,2015,Natural Bridges,36.9502,-122.0576,y,Orange,3,35,0.06,UCSC
+219,2016,Natural Bridges,36.9502,-122.0576,y,Purple,17,35,0.31,UCSC
+220,2016,Natural Bridges,36.9502,-122.0576,y,Orange,2,20,0.04,UCSC
+221,2016,Natural Bridges,36.9502,-122.0576,y,Purple,1,20,0.02,UCSC
+222,2016,Natural Bridges,36.9502,-122.0576,y,Orange,2,30,0.04,Watsonville High School
+223,2016,Natural Bridges,36.9502,-122.0576,y,Purple,1,30,0.02,Watsonville High School
+224,2016,Pigeon Point,37.1829,-122.3928,n,Orange,1,8,0.06,Menlo Altherton High School
+225,2016,Pigeon Point,37.1829,-122.3928,n,Purple,2,8,0.12,Menlo Altherton High School
+226,2016,Natural Bridges,36.9502,-122.0576,y,Orange,5,20,0.09,James Logan High School
+227,2016,Natural Bridges,36.9502,-122.0576,y,Orange,5,30,0.09,James Logan High School
+228,2016,Natural Bridges,36.9502,-122.0576,y,Purple,4,20,0.07,Pacific Grove Museum of Natural History
+229,2016,Natural Bridges,36.9502,-122.0576,y,Purple,7,30,0.13,Pacific Grove Museum of Natural History
+230,2016,Davenport Landing,37.0248,-122.2156,n,Purple,8,15,0.8,
+231,2016,Davenport Landing,37.0248,-122.2156,n,Orange,0,15,0,
+232,2016,Pillar Point,37.503,-122.4823,y,Orange,2,30,0.15,Pacific Grove Museum of Natural History
+233,2016,Pillar Point,37.503,-122.4823,y,Purple,11,30,0.84,Pacific Grove Museum of Natural History
+234,2016,Pigeon Point,37.1829,-122.3928,n,Orange,4,20,0.24,The Urban School
+235,2016,Pigeon Point,37.1829,-122.3928,n,Purple,12,20,0.72,Head Royce School
