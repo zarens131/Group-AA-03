@@ -1,35 +1,51 @@
+## 11/20/2019 GROUP AA03, PROJECT SEA STAR
 library(shiny)
 library(dplyr)
 library(ggplot2)
 library(leaflet)
 library(shinythemes)
-
+#Loading libraries...
 ui <- fluidPage(
   #mainPanel() seems to not properly display the "Project Data" label
-  page_one <- tabPanel(
+  main_page <- tabPanel(
   "Project Data", titlePanel("Sea Star Population"),
-  "Interactive Map And Project Summary", leafletOutput("mymap"))
+  leafletOutput("mymap")) #displays interactive map
 )
 
+page_one <- tabPanel(
+  "Question 1", titlePanel("Are the rising water temperatures along the Western Coast of the United
+    States having an impact on the Sea Star population?")
+  )
 page_two <- tabPanel(
-  "Question 1"
+  "Question 2", titlePanel(
+  "With recent numbers in Sea Star population dwindling, how will the shallow 
+  ecosystems be affected and how will the effects change the ocean?")
   )
 page_three <- tabPanel(
-  "Question 2"
+  "Question 3", titlePanel(
+    "How does the population of the other animals in the 
+    ecosystem appear to affect the sea star population?")
   )
 page_four <- tabPanel(
-  "Question 3"
+  "Question 4", titlePanel(
+    "Comparing the global warming temperatures to the general 
+    ecosystem where sea stars reside, is there a noticeable trend?")
   )
 page_five <- tabPanel(
-  "Question 4"
+  "Question 5", titlePanel(
+    "What correlation is found between the sea level 
+    and heat maps from the following datasets?")
   )
 page_six <- tabPanel(
-  "Question 5"
-  )
+  "Question 6", titlePanel(
+    "When comparing sea level and the oceans ecosystem populations, 
+    is there a noticeable trend?")
+)
 ui <- navbarPage(
   theme = shinytheme("superhero"), "Project Sea Star", # application title
-  page_one,         # include the first page content
-  page_two,         # include the second page content
+  main_page,         # include the first page content
+  page_one,         # include the second page content
+  page_two,
   page_three,
   page_four,
   page_five,
