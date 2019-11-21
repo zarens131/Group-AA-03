@@ -26,12 +26,13 @@ Autumn 2019
   * Many studies are being conducted along all of the West Coast of the United
   States, with the focus being mainly in California. Researchers don't know the
   cause of the disease yet, but in coming years, research may unveil the cause.
+  * Nick: Q1, Q5, Q?
+  * Arya: Q4, Q6, Q?
 
-##### Research Question(s):
-  * Does the rising water temperatures along the Western Coast of the United
-    States have any impact on the Sea Star population?
+##### Research Question(s): (switch 4 and 5 to 2 and 3) (questions 1-3: viz right, controls left)
+  * Is there a correlation between Sea Star Population density and areas of concentrated ocean heat? (main page: slider tab for years: population density, changes colors per year) (question 1: year by year map: radio buttons)
   * With recent numbers in Sea Star population dwindling, how will the shallow
-    ecosystems be affected and how much will that change the ocean?
+    ecosystems be affected and how much will that change the ocean? 
   * How does the population of the other animals in the ecosystem appear to affect the sea star population?
   * Comparing the global warming temperatures to the general ecosystem where sea stars reside, is there a noticeable trend?
   * What correlation is found between the sea level and heat maps from the following datasets.
@@ -59,6 +60,8 @@ Autumn 2019
 #### _Fig 7. Map of Sea Surface Temperature from 1901 - 2015_ (Source: epa.gov)
 # ![Relative Sea Level Change along US Coast](https://www.epa.gov/sites/production/files/styles/large/public/2016-07/sea-level-download2-2016.png)
 #### _Fig 8. Map of Relative Sea Level Change from 1960 - 2015_ (Source: epa.gov)
+
+https://www.wildlife.ca.gov/Conservation/Marine/SCFRMP/Surf-Fish
 --------------
 ##### **Teamwork Commitments:**
 * As a group, we meet on Sundays from 1pm to 3pm.
