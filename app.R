@@ -6,33 +6,23 @@ library(leaflet)
 ui <- fluidPage(
   page_one <- tabPanel("First Page",
   titlePanel("Sea Star Population"),
-  "Question 1"),
-  sidebarLayout(
-    sidebarPanel(
-      # This is where "reactive output" comes into play ex: renderDataTable(),renderTable() etc.
-    ),
-    mainPanel(
-      h3("Primary Content"),
-      p("Plots, data tables, etc. would go here")
-    )
-  )
+  "Interactive Map And Project Summary", leafletOutput("mymap"))
 )
+
 page_two <- tabPanel(
-"Question 2"
-)
+  "Question 1"
+  )
 page_three <- tabPanel(
-  "Question 3"
+  "Question 2"
   )
 page_four <- tabPanel(
-  "Question 4"
+  "Question 3"
   )
 page_five <- tabPanel(
-  "Question 5"
+  "Question 4"
   )
 page_six <- tabPanel(
-  "Map",
-  titlePanel("Sea Star Population Map"),
-  leafletOutput("mymap")
+  "Question 5"
   )
 ui <- navbarPage(
   "Project Sea Star", # application title
