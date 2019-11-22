@@ -2,13 +2,10 @@
 library(shiny)
 library(dplyr)
 library(ggplot2)
-<<<<<<< HEAD
-
-=======
 library(leaflet)
 library(shinythemes)
 #Loading libraries...
->>>>>>> 3b046024c94dbdaba490a1503e3709b9354b2c3a
+
 ui <- fluidPage(
   #mainPanel() seems to not properly display the "Project Data" label.
   #Therefore, we will use tabPanel().
@@ -155,7 +152,11 @@ page_eight <- tabPanel(
   sidebarPanel(
     p("Group member:"),
     p("Explanation")
-    )
+    ),
+  sidebarPanel(
+    p("Technical Document:"),
+    p("(https://github.com/zarens131/Group-AA-03/wiki/Sea-Star-Technical-Document)")
+  )
   )
 )
 
@@ -174,9 +175,7 @@ ui <- navbarPage(
 
 server <- function(input, output) {
   # output$ {call variable <-}
-<<<<<<< HEAD
 
-=======
   data1 <- read.csv("docs/project_data_set_1.csv", stringsAsFactors = FALSE)
   data1_as_date <- data1
   data1_as_date$Date <- as.Date(data1_as_date$Date, "%m/%d/%Y")
@@ -227,7 +226,7 @@ server <- function(input, output) {
       theme_minimal()
     bar_plot
   })
->>>>>>> 3b046024c94dbdaba490a1503e3709b9354b2c3a
+
   #return
 }
 shinyApp(ui = ui, server = server)
