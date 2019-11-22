@@ -29,10 +29,13 @@ Autumn 2019
   * Nick: Q1, Q5, Q?
   * Arya: Q4, Q6, Q?
 
+#####Link to Tech Document
+* [Technical Document](https://github.com/zarens131/Group-AA-03/wiki/Sea-Star-Technical-Document)
+
 ##### Research Question(s): (switch 4 and 5 to 2 and 3) (questions 1-3: viz right, controls left)
   * Is there a correlation between Sea Star Population density and areas of concentrated ocean heat? (main page: slider tab for years: population density, changes colors per year) (question 1: year by year map: radio buttons)
   * With recent numbers in Sea Star population dwindling, how will the shallow
-    ecosystems be affected and how much will that change the ocean? 
+    ecosystems be affected and how much will that change the ocean?
   * How does the population of the other animals in the ecosystem appear to affect the sea star population?
   * Comparing the global warming temperatures to the general ecosystem where sea stars reside, is there a noticeable trend?
   * What correlation is found between the sea level and heat maps from the following datasets.
