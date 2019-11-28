@@ -220,11 +220,10 @@ server <- function(input, output) {
   file <- read.csv('docs/ocean-heat_fig-1.csv', stringsAsFactors = FALSE) #reads csv
   #constructs viz and converts to UI from server in shiny
   output$bar_plot <- renderPlot({
-    bar_plot <- ggplot(file, aes(x = Year, y = NOAA)) +
+    ggplot(file, aes(x = Year, y = NOAA)) +
       geom_bar(stat="identity", position=position_dodge(), fill = "darkred")+
       geom_text(aes(label = NOAA), vjust = 1.6, size = 1.5) +
       theme_minimal()
-    bar_plot
   })
 
   #return
