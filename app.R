@@ -11,17 +11,12 @@ ui <- fluidPage(
   main_page <- tabPanel(
     "Project Data", #displays tab label
     titlePanel("Sea Star Population"), #displays page title
-    leafletOutput("starfish_map"), #displays interactive map
-    sidebarPanel(
-      h3("Navigation Bar") #placeholder text for nav bar
-    ),
-    sidebarPanel(
-      h3("Research & Background"),
-      p("Research & Background summary")
-    ),
-    sidebarPanel(
-      h3("Visual Controls/Key"), #placeholder visual controls and/or key
-      p("brief statement on key")
+    br(),
+    sidebarLayout( 
+      sidebarPanel(
+        h3("Research Findings") #placeholder text for nav bar
+      ),
+      mainPanel(leafletOutput("starfish_map")) #displays interactive map
     )
   )
 )
@@ -31,14 +26,15 @@ page_one <- tabPanel(
     "Are the rising water temperatures along the Western Coast of the United
   States having an impact on the Sea Star population?"),
   h2("Research Questions and findings"),
-  sidebarPanel(
-    h3("Visual") #placeholder for viz
-  ),
-  sidebarPanel(
-    p("Research Findings")
-  ),
-  sidebarPanel(
-    p("Nav bar") #placeholder text for nav bar
+  sidebarLayout(
+    sidebarPanel(
+      h3("Navigation Bar"),
+      selectInput("year", label = "Year:", choices =
+                    list("2007", "2008", "2009", "2010", "2011", "2012",
+                         "2013", "2014", "2015", "2016", "2017"),
+                  selected = "2007")
+    ),
+    mainPanel(leafletOutput("map_interact"))
   )
 )
 
@@ -174,6 +170,11 @@ server <- function(input, output) {
   output$starfish_map <- renderLeaflet({
     starfish_map()
   })
+  #creates interactive map
+  source("docs/starfish_map_2.R")
+  output$map_interact <- renderLeaflet({
+    map_interact(year())
+  })
   #creates sealevels graph
   source('docs/sea_level_plot.R')
   #constructs plot graph and converts to UI from server in shiny
@@ -186,6 +187,10 @@ server <- function(input, output) {
   output$bar_plot <- renderPlot({
     heat_plot()
   })
+  year <- reactive({
+    input$year
+  })
+  
   #return
 }
 shinyApp(ui = ui, server = server)

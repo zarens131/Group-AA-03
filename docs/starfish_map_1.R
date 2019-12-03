@@ -1,4 +1,4 @@
-starfish_map <- function(year = "2007") {
+starfish_map <- function(year = "2010") {
   data1 <- read.csv("docs/project_data_set_1.csv", stringsAsFactors = FALSE)
   
   data1_as_date <- data1
@@ -21,17 +21,14 @@ starfish_map <- function(year = "2007") {
   data1_by_year_df <- inner_join(data1_by_year_df,
                                  data1_year_total_starfish, by = "Site")
   
-  popup_map <- paste(sep = "<br/>",
-                     paste("Site: ", data1_year_total_starfish$Site, sep = ""),
-                     paste("Starfish Population: ",
-                           data1_year_total_starfish$sum, sep = ""))
+  popup_map <- paste("Site: ", data1_by_year_df$Site)
   
   map1 <- leaflet(data = data1_by_year_df) %>%
     addTiles() %>%
     addCircles(lat = ~Lat,
-                     lng = ~Long,
-                     radius = ~sum * 50,
-                     popup = popup_map,
+               lng = ~Long,
+               radius = 3000,
+               popup = popup_map,
                fillOpacity = 0.1)
   
   return(map1)
