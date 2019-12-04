@@ -5,6 +5,7 @@ library(ggplot2)
 library(leaflet)
 library(shinythemes)
 library(ggvis)
+library(tidyr)
 #Loading libraries...
 ui <- fluidPage(
   #mainPanel() seems to not properly display the "Project Data" label.
@@ -75,15 +76,14 @@ page_four <- tabPanel(
     "Comparing the global warming temperatures to the general
   ecosystem where sea stars reside, is there a noticeable trend?"),
   titlePanel("Ocean Heat Graph"),
-  plotOutput("bar_plot"),
   h2("Research Questions and Findings"),
   sidebarLayout(
     sidebarPanel(
       h3("Navigation Bar"),
-      sliderInput("level_slider", label = "Year Range:", min = 1955,
+      sliderInput("heat_slider", label = "Year Range:", min = 1955,
                   max = 2015, value = c(1955, 2015))
     ),
-    mainPanel(plotOutput("oceanheat"))
+    mainPanel(plotOutput("bar_plot"))
   )
 )
 
@@ -184,7 +184,7 @@ server <- function(input, output) {
   source('docs/ocean_heat_plot.R')
   #constructs viz and converts to UI from server in shiny
   output$bar_plot <- renderPlot({
-    heat_plot()
+    heat_plot(year1_heat(), year2_heat())
   })
   year <- reactive({
     input$year
@@ -194,6 +194,12 @@ server <- function(input, output) {
   })
   year2_level <- reactive({
     input$level_slider[2]
+  })
+  year1_heat <- reactive({
+    input$heat_slider[1]
+  })
+  year2_heat <- reactive({
+    input$heat_slider[2]
   })
   
   #return
