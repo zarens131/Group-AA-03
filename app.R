@@ -84,10 +84,9 @@ page_four <- tabPanel(
   ),
   sidebarPanel(
     h3("Nav bar"),
-    ggvis(~year) %>% 
-      bar_plot(width =  input_slider(0, 2, step = 0.10, label = "width"),
-                       center = input_slider(0, 2, step = 0.05, label = "center")) #placeholder text for nav bar
-  )
+    sliderInput("level_slider", label = "Year Range:", min = 1955,
+                max = 2015, value = c(1955, 2015))
+    )
 )
 
 page_five <- tabPanel(

@@ -8,3 +8,4 @@ bar_plot <- ggplot(file, aes(x = Year, y = NOAA)) +
   geom_text(aes(label = NOAA), vjust = 1.6, size = 1.5) +
   theme_minimal()
 bar_plot
+
