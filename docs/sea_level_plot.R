@@ -1,4 +1,4 @@
-sea_level <- function() {
+sea_level <- function(year1 = 1880, year2 = 2015) {
   sea_levels <- read.csv('docs/sea-level_fig-1.csv',
                          stringsAsFactors = FALSE)
   
@@ -10,9 +10,11 @@ sea_level <- function() {
                 alpha = 0.5) +
     geom_line(aes(x = Year, y = zero, color = "Normal Sea Level at 1880")) +
     scale_color_manual(values = c("black", "red")) +
-    scale_x_continuous(breaks = seq(1880, 2020, 20)) +
     scale_y_continuous(breaks = seq(0, 12, 2)) +
     ylab("Level (M)")
+  
+  sea_level_plot <- sea_level_plot +
+    xlim(year1, year2)
   
   return(sea_level_plot)
 }
