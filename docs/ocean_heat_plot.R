@@ -1,4 +1,4 @@
-bar_plot <- function(year1 = 1955, year2 = 2015) {
+heat_plot <- function(year1 = 1955, year2 = 2015) {
   file <- read.csv("docs/ocean-heat_fig-1.csv",
                    stringsAsFactors = FALSE)
   
