@@ -75,19 +75,16 @@ page_four <- tabPanel(
   "Question 4", titlePanel(
     "Comparing the global warming temperatures to the general
   ecosystem where sea stars reside, is there a noticeable trend?"),
+  titlePanel("Ocean Heat Graph"),
   plotOutput("bar_plot"),
-  p("Sea level temperature bar graph"),
-  sidebarPanel(
-    h3("Research Findings")
-  ),
-  sidebarPanel(
-    h3("Visual Controls/Key") #placeholder for viz controls and/or key
-  ),
-  sidebarPanel(
-    h3("Nav bar"),
-    #ggvis(~year) %>% 
-      #bar_plot(width =  input_slider(0, 2, step = 0.10, label = "width"),
-      #                 center = input_slider(0, 2, step = 0.05, label = "center")) #placeholder text for nav bar
+  h2("Research Questions and Findings"),
+  sidebarLayout(
+    sidebarPanel(
+      h3("Navigation Bar"),
+      sliderInput("level_slider", label = "Year Range:", min = 1955,
+                  max = 2015, value = c(1955, 2015))
+    ),
+    mainPanel(plotOutput("oceanheat"))
   )
 )
 
