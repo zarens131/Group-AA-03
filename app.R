@@ -39,40 +39,8 @@ page_one <- tabPanel(
     mainPanel(leafletOutput("map_interact"))
   )
 )
-
 page_two <- tabPanel(
   "Question 2", titlePanel(
-    "With recent numbers in Sea Star population dwindling, how will the shallow
-  ecosystems be affected and how will the effects change the ocean?"),
-  h2("Research Questions and findings"),
-  sidebarPanel(
-    h3("Visual") #placeholder for viz
-  ),
-  sidebarPanel(
-    p("Research Findings")
-  ),
-  sidebarPanel(
-    p("Nav bar") #placeholder text for nav bar
-  )
-)
-
-page_three <- tabPanel(
-  "Question 3", titlePanel(
-    "How does the population of the other animals in the
-  ecosystem appear to affect the sea star population?"),
-  sidebarPanel(
-    h3("Visual") #placeholder for viz
-  ),
-  sidebarPanel(
-    p("Research Findings")
-  ),
-  sidebarPanel(
-    p("Nav bar") #placeholder text for nav bar
-  )
-)
-
-page_four <- tabPanel(
-  "Question 4", titlePanel(
     "Comparing the global warming temperatures to the general
   ecosystem where sea stars reside, is there a noticeable trend?"),
   titlePanel("Ocean Heat Graph"),
@@ -86,9 +54,8 @@ page_four <- tabPanel(
     mainPanel(plotOutput("bar_plot"))
   )
 )
-
-page_five <- tabPanel(
-  "Question 5", titlePanel(
+page_three <- tabPanel(
+  "Question 3", titlePanel(
     "What correlation is found between the sea level
   and heat maps from the following datasets?"),
   h2("Research Questions and findings"),
@@ -102,22 +69,7 @@ page_five <- tabPanel(
     mainPanel(plotOutput("sealevels"))
   )
 )
-
-page_six <- tabPanel(
-  "Question 6",
-  h3("When comparing sea level and the oceans 
-     ecosystem populations, is there a noticeable trend?"),
-  sidebarPanel(
-    h3("Visual") #placeholder for viz
-  ),
-  sidebarPanel(
-    p("Research Findings")
-  ),
-  sidebarPanel(
-    p("Nav bar") #placeholder text for nav bar
-  )
-)
-page_seven <- tabPanel(
+page_four <- tabPanel(
   "Conclusion",
   sidebarPanel(
     h3("Navbar") #placeholder text for nav bar
@@ -130,7 +82,7 @@ page_seven <- tabPanel(
     h3("Images") #placeholder text for images
   )
 )
-page_eight <- tabPanel(
+page_five <- tabPanel(
   "About Us",
   mainPanel(
     h3("Group Members"), 
@@ -149,7 +101,6 @@ page_eight <- tabPanel(
     )
   )
 )
-
 ui <- navbarPage(
   theme = shinytheme("superhero"), "Project Sea Star", # application title
   main_page, #creates main page
@@ -157,10 +108,7 @@ ui <- navbarPage(
   page_two,
   page_three,
   page_four,
-  page_five,
-  page_six,
-  page_seven,
-  page_eight
+  page_five
 )
 
 server <- function(input, output) {
@@ -201,7 +149,6 @@ server <- function(input, output) {
   year2_heat <- reactive({
     input$heat_slider[2]
   })
-  
   #return
 }
 shinyApp(ui = ui, server = server)
