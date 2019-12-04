@@ -3,18 +3,15 @@
  This project focuses on the decline of the population of Sea Stars on the
  Western Coast of the United States and what causes the rapid decline.
 * [Project Proposal](https://github.com/zarens131/Group-AA-03/wiki/Project-Proposal#starfish-population)
-
 ###### Team Members:
 * Arya Goel
 * Nicholas Wicklund
 * Zachary Arenson
-
 ##### Affiliation:
 Info-201: Technical Foundations of Informatics
 The Information School
 University of Washington
 Autumn 2019
-
 ##### Introduction:
   * In the past decade, the Sea Star population has varied somewhat greatly
   because of a certain 'Sea Star Wasting Disease'.
@@ -26,20 +23,12 @@ Autumn 2019
   * Many studies are being conducted along all of the West Coast of the United
   States, with the focus being mainly in California. Researchers don't know the
   cause of the disease yet, but in coming years, research may unveil the cause.
-  * Nick: Q1, Q5, Q?
-  * Arya: Q4, Q6, Q?
-
 #####Link to Tech Document
 * [Technical Document](https://github.com/zarens131/Group-AA-03/wiki/Sea-Star-Technical-Document)
-
-##### Research Question(s): (switch 4 and 5 to 2 and 3) (questions 1-3: viz right, controls left)
-  * Is there a correlation between Sea Star Population density and areas of concentrated ocean heat? (main page: slider tab for years: population density, changes colors per year) (question 1: year by year map: radio buttons)
-  * With recent numbers in Sea Star population dwindling, how will the shallow
-    ecosystems be affected and how much will that change the ocean?
-  * How does the population of the other animals in the ecosystem appear to affect the sea star population?
+##### Research Question(s):
+  * Are the rising water temperatures along the Western Coast of the United States having an impact on the Sea Star population?
   * Comparing the global warming temperatures to the general ecosystem where sea stars reside, is there a noticeable trend?
-  * What correlation is found between the sea level and heat maps from the following datasets.
-  * When comparing sea level and the oceans ecosystem populations, is there a noticeable trend?
+  * What correlation is found between the sea level and heat maps from the following datasets?
 ##### Possible Data Set(s):
   [Ochre Sea Star Population](https://tuvalabs.com/datasets/ochre_sea_star_populations/activities) |
   [Sea Stars Distribution](https://onlinelibrary.wiley.com/doi/pdf/10.1111/ddi.12490) |

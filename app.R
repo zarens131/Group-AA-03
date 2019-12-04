@@ -16,7 +16,8 @@ ui <- fluidPage(
     br(),
     sidebarLayout( 
       sidebarPanel(
-        h3("Research Findings") #placeholder text for nav bar
+        h3("Technology:"),
+        p("Text here.")
       ),
       mainPanel(leafletOutput("starfish_map")) #displays interactive map
     ),
@@ -76,19 +77,32 @@ page_three <- tabPanel(
 page_four <- tabPanel(
   "About Us",
   mainPanel(
-    h3("Group Members"), 
-    #all placeholder text for read me file info on group),
+    h3("Group Members -"), 
+    #all placeholder text for read me file info on group
     sidebarPanel(
-      p("Group member:"),
-      p("Explanation")
+      p("Nicholas (Coder):"),
+    ),
+    mainPanel(
+      p("Being Interested in the data trends between global warming and the sea star population. 
+        Nicholas chose the role of leading coding efforts, 
+        problem solving, and organizing the essential functions used to complete our data graphs.")
     ),
     sidebarPanel(
-      p("Group member:"),
-      p("Explanation")
+      p("Zach (Thinker):"),
+    ),
+    mainPanel(
+      p("Being interested in how the sea star population has struggled to adapt to global warming. 
+        Zach chose to fill the role of leading the team's organizational efforts. 
+        Such as group meetings, organizing and writing the technical document, 
+        and ensuring or briefing the group members on the projects situation.")
     ),
     sidebarPanel(
-      p("Group member:"),
-      p("Explanation")
+      p("Arya (Innovator):"),
+    ),
+    mainPanel(
+      p("Being interested in human influence towards the sea star population. 
+        Arya took on the task of leading our research efforts, 
+        challenging difficult scenarios in our project, and bringing new ideas to the table.")
     )
   )
 )
