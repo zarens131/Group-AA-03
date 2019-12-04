@@ -14,7 +14,7 @@ ui <- fluidPage(
     "Project Data", #displays tab label
     titlePanel("Sea Star Population"), #displays page title
     br(),
-    sidebarLayout( 
+    sidebarLayout(
       sidebarPanel(
         h3("Research Findings") #placeholder text for nav bar
       ),
@@ -85,7 +85,7 @@ page_four <- tabPanel(
 page_five <- tabPanel(
   "About Us",
   mainPanel(
-    h3("Group Members"), 
+    h3("Group Members"),
     #all placeholder text for read me file info on group),
     sidebarPanel(
       p("Group member:"),
@@ -113,7 +113,7 @@ ui <- navbarPage(
 
 server <- function(input, output) {
   # output$ {call variable <-}
-  source('docs/starfish_map_1.R')
+  source("docs/starfish_map_1.R")
   output$starfish_map <- renderLeaflet({
     starfish_map()
   })
@@ -123,13 +123,13 @@ server <- function(input, output) {
     map_interact(year())
   })
   #creates sealevels graph
-  source('docs/sea_level_plot.R')
+  source("docs/sea_level_plot.R")
   #constructs plot graph and converts to UI from server in shiny
   output$sealevels <- renderPlot({
     sea_level(year1_level(), year2_level())
   })
   #creates ocean heat viz
-  source('docs/ocean_heat_plot.R')
+  source("docs/ocean_heat_plot.R")
   #constructs viz and converts to UI from server in shiny
   output$bar_plot <- renderPlot({
     heat_plot(year1_heat(), year2_heat())
