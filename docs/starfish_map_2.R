@@ -20,7 +20,7 @@ map_interact <- function(year = "2007") {
                                stringsAsFactors = FALSE)
   
   data2_by_year_df <- data2_yearly %>%
-    filter(Year == "2010")
+    filter(Year == year)
   
   data2_year_total_starfish <- data2_by_year_df %>%
     group_by(Site) %>%
@@ -32,7 +32,7 @@ map_interact <- function(year = "2007") {
   popup_map <- paste(sep = "<br/>",
                      paste("Site: ", data2_by_year_df$Site, sep = ""),
                      paste("Starfish Population: ",
-                           data2_year_total_starfish$sum, sep = ""),
+                           data2_by_year_df$sum, sep = ""),
                      paste("Surface Temperature Increase: ",
                            temps$Annual.anomaly, sep = ""))
   
