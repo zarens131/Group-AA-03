@@ -95,15 +95,13 @@ page_five <- tabPanel(
   and heat maps from the following datasets?"),
   h2("Research Questions and findings"),
   titlePanel("Sea Level Graph"), #displays banner title
-  plotOutput("sealevels"), #displays sealevels bar graph
-  sidebarPanel(
-    h3("Research Findings")
-  ),
-  sidebarPanel(
-    h3("Visual Controls/Key") #placeholder for viz controls and/or key
-  ),
-  sidebarPanel(
-    p("Nav bar") #placeholder text for nav bar
+  sidebarLayout(
+    sidebarPanel(
+      h3("Navigation Bar"),
+      sliderInput("level_slider", label = "Year Range:", min = 1880,
+                  max = 2015, value = c(1880, 2015))
+    ),
+    mainPanel(plotOutput("sealevels"))
   )
 )
 
@@ -182,7 +180,7 @@ server <- function(input, output) {
   source('docs/sea_level_plot.R')
   #constructs plot graph and converts to UI from server in shiny
   output$sealevels <- renderPlot({
-    sea_level()
+    sea_level(year1_level(), year2_level())
   })
   #creates ocean heat viz
   source('docs/ocean_heat_plot.R')
@@ -192,6 +190,12 @@ server <- function(input, output) {
   })
   year <- reactive({
     input$year
+  })
+  year1_level <- reactive({
+    input$level_slider[1]
+  })
+  year2_level <- reactive({
+    input$level_slider[2]
   })
   
   #return
