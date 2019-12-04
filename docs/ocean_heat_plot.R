@@ -14,7 +14,6 @@ heat_plot <- function(year1 = 1955, year2 = 2015) {
   
   bar_plot <- bar_plot +
     xlim(year1, year2)
-  qq
   return(bar_plot)
 }
   
