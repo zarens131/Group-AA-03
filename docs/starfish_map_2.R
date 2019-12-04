@@ -1,6 +1,14 @@
 map_interact <- function(year = "2007") {
   data2 <- read.csv("docs/project_data_set_1.csv", stringsAsFactors = FALSE)
   
+  temps <- read.csv("docs/sea-surface-temp_fig-2.csv",
+                    stringsAsFactors = FALSE)
+  
+  temps <- replace_na(temps, replace = list(Annual.anomaly = "No Data"))
+  
+  temps <- temps %>%
+    filter(Year == year)
+  
   data2_as_date <- data2
   
   data2_as_date$Date <- as.Date(data2_as_date$Date, "%m/%d/%Y")
@@ -12,7 +20,7 @@ map_interact <- function(year = "2007") {
                                stringsAsFactors = FALSE)
   
   data2_by_year_df <- data2_yearly %>%
-    filter(Year == year)
+    filter(Year == "2010")
   
   data2_year_total_starfish <- data2_by_year_df %>%
     group_by(Site) %>%
@@ -24,7 +32,9 @@ map_interact <- function(year = "2007") {
   popup_map <- paste(sep = "<br/>",
                      paste("Site: ", data2_by_year_df$Site, sep = ""),
                      paste("Starfish Population: ",
-                           data2_year_total_starfish$sum, sep = ""))
+                           data2_year_total_starfish$sum, sep = ""),
+                     paste("Surface Temperature Increase: ",
+                           temps$Annual.anomaly, sep = ""))
   
   map2 <- leaflet(data = data2_by_year_df) %>%
     addTiles() %>%

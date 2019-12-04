@@ -5,6 +5,7 @@ library(ggplot2)
 library(leaflet)
 library(shinythemes)
 library(ggvis)
+library(tidyr)
 #Loading libraries...
 ui <- fluidPage(
   #mainPanel() seems to not properly display the "Project Data" label.
@@ -84,9 +85,9 @@ page_four <- tabPanel(
   ),
   sidebarPanel(
     h3("Nav bar"),
-    ggvis(~year) %>% 
-      bar_plot(width =  input_slider(0, 2, step = 0.10, label = "width"),
-                       center = input_slider(0, 2, step = 0.05, label = "center")) #placeholder text for nav bar
+    #ggvis(~year) %>% 
+      #bar_plot(width =  input_slider(0, 2, step = 0.10, label = "width"),
+      #                 center = input_slider(0, 2, step = 0.05, label = "center")) #placeholder text for nav bar
   )
 )
 
