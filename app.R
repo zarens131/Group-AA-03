@@ -19,6 +19,10 @@ ui <- fluidPage(
         h3("Research Findings") #placeholder text for nav bar
       ),
       mainPanel(leafletOutput("starfish_map")) #displays interactive map
+    ),
+      mainPanel(
+      h3("Conclusion Statement"),
+      p("Conclusion Statement Paragraphs")
     )
   )
 )
@@ -70,19 +74,6 @@ page_three <- tabPanel(
   )
 )
 page_four <- tabPanel(
-  "Conclusion",
-  sidebarPanel(
-    h3("Navbar") #placeholder text for nav bar
-  ),
-  mainPanel(
-    h3("Conclusion Statement"),
-    p("Conclusion Statement Paragraphs")
-  ),
-  sidebarPanel(
-    h3("Images") #placeholder text for images
-  )
-)
-page_five <- tabPanel(
   "About Us",
   mainPanel(
     h3("Group Members"), 
@@ -107,8 +98,7 @@ ui <- navbarPage(
   page_one, #creates other tab pages
   page_two,
   page_three,
-  page_four,
-  page_five
+  page_four
 )
 
 server <- function(input, output) {
