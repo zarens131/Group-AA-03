@@ -5,8 +5,8 @@ account: zarens131
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1500132
-bundleId: 2606220
+bundleId: 2638955
 url: https://zarens131.shinyapps.io/Group-AA-03/
-when: 1574315961.7067
+when: 1575436245.56627
 asMultiple: FALSE
 asStatic: FALSE
